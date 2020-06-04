@@ -10,7 +10,8 @@ class Config:
     """Set Flask configuration vars from .env file."""
 
     # General Config
-    SECRET_KEY = environ.get('SECRET_KEY')
+    #SECRET_KEY = environ.get('SECRET_KEY')
+    SECRET_KEY = b'_5#y2L"F4Q8z\n\xec]/'
     FLASK_APP = environ.get('FLASK_APP')
     FLASK_ENV = environ.get('FLASK_ENV')
 
